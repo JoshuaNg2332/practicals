@@ -1,4 +1,4 @@
-## Week 1 - Debugging Practicals
+# Week 1 - Debugging Practicals
 
 This practical was designed to help teach us about how to debug problems using 'p'
 
