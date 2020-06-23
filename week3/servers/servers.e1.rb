@@ -4,10 +4,15 @@ server = TCPServer.new(2345)
 
 socket = server.accept
 
-socket.puts "What do you say?"
+while true
 
-they_said = socket.gets.chomp
+  socket.puts "What do you say? Type 'quit' to close connection"
 
-socket.puts "You said: #{they_said}. Goodbye!"
+  they_said = socket.gets.chomp
 
-socket.close
+  socket.puts "You said: #{they_said}. Goodbye!"
+  if (they_said == "quit")
+    socket.puts "Thank you! Goodbye!"
+    socket.close
+  end
+end
