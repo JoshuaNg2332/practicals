@@ -109,10 +109,10 @@ I want to be able to filter Diary Entries by Tag
 ## Installation
 
 1. Connect to psql
-2. Create the database using the psql command CREATE DATABASE bookmark_manager;
-3. Connect to the database using the psql command \c bookmark_manager;
-4. Run the query we have saved in the file 01_create_bookmarks_table.sql
-5. We have created a new test database using the same commands as above, except called the new table, bookmark_manager_test.
+2. Create the database using the psql command CREATE DATABASE diary;
+3. Connect to the database using the psql command \c diary;
+4. Run the query we have saved in the file 01_create_diary_table.sql
+5. We have created a new test database using the same commands as above, except called the new table, diary_test.
 
 ## Assumptions
 * All bookmarks are public
